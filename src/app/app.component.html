@@ -1,2 +1,6 @@
-<app-header></app-header>
+@if (!isAdminRoute()) {
+    <app-header></app-header>
+}@else {
+    <app-menu-admin></app-menu-admin>
+}
 <router-outlet></router-outlet>

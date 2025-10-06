@@ -9,8 +9,8 @@ import { CommonModule } from '@angular/common';
 })
 export class BannerComponent {
   images: string[] = [
-    'banner1.jpg',
-    'banner2.jpg'
+    'banner1.png',
+    'banner2.png'
   ];
 
   currentIndex = 0;
